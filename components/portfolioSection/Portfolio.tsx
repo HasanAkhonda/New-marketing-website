@@ -16,7 +16,7 @@ const Portfolio = () => {
                     <div className="flex m-auto w-full md:w-1/3 border-8 border-white/40 rounded-3xl">
                         <Image
                             className="aspect-square  w-full h-full object-cover rounded-2xl"
-                            src="/Portfolio1.jpg"
+                            src="/p3.png"
                             width={30000}
                             height={20000}
                             alt="profilepic"
@@ -45,7 +45,7 @@ const Portfolio = () => {
                     <div className="flex m-auto w-full md:w-1/3 border-8 border-white/40 rounded-3xl">
                         <Image
                             className="aspect-square  w-full h-full object-cover rounded-2xl"
-                            src="/Portfolio1.jpg"
+                            src="/p2.png"
                             width={30000}
                             height={20000}
                             alt="profilepic"
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     <div className="flex m-auto w-full md:w-1/3 border-8 border-white/40 rounded-3xl">
                         <Image
                             className="aspect-square  w-full h-full object-cover rounded-2xl"
-                            src="/Portfolio1.jpg"
+                            src="/p1.png"
                             width={300}
                             height={200}
                             alt="profilepic"

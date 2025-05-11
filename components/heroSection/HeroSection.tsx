@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="absolute w-[691px] h-[483px] left-[-715px] top-[642px] bg-[#180B24] blur-[130px] sm:w-[480px] sm:h-[320px] sm:left-[-240px] sm:top-[500px]" />
 
       {/* Content Container */}
-      <div className="relative flex flex-col lg:flex-row justify-between items-center max-w-7xl mx-5 md:mx-auto  pb-16  lg:py-32 pt-24 gap-16 md:gap-12">
+      <div className="relative flex flex-col lg:flex-row justify-between items-center max-w-7xl mx-5 lg:mx-auto  pb-16  lg:py-32 pt-24 gap-16 lg:gap-12">
         
         {/* Left Content */}
         <div className="text-white text-left  w-full">
@@ -22,7 +22,7 @@ const HeroSection = () => {
             Optimize Your Online Presence
           </p>
           <a href="#schedule">
-            <button className="flex items-center justify-center gap-2 px-6 py-3 bg-[#FA931A] rounded text-white font-medium text-base sm:text-lg w-full sm:w-auto">
+            <button className="flex items-center justify-center gap-2 px-6 py-3 bg-[#FA931A] rounded text-white font-medium text-base sm:text-lg w-full md:w-auto">
               Schedule Call <ArrowRight className="w-5 h-5" />
             </button>
           </a>
