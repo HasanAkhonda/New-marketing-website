@@ -1,9 +1,9 @@
 
 const cardData = [
-  { title: 'Data+', image: '/background.svg' },
-  { title: 'Design+', image: '/background.svg' },
-  { title: 'Research+', image: '/background.svg' },
-  { title: 'PPC+', image: '/background.svg' },
+  { title: 'Data+', image: '/data.svg' },
+  { title: 'Design+', image: '/design.svg' },
+  { title: 'Research+', image: '/research.svg' },
+  { title: 'PPC+', image: '/ppc.svg' },
 ];
 
 const IncreaseROIToday = () => {
