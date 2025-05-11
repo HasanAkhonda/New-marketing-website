@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { AppConfig } from "@/config/app.config";
-import NavigationBar from "@/components/navigation/NavigationBar";
+import Navigation from "@/components/navigation/NavigationBar";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
@@ -16,11 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-        <NavigationBar/>
-        <body>
-          {children}
-        </body>
-      <Footer/>
+      <body><Navigation/ >{children} <Footer/></body>
     </html>
   );
 }
