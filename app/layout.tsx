@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { AppConfig } from "@/config/app.config";
-import Navigation from "@/components/navigation/NavigationBar";
+import NavigationBar from "@/components/navigation/NavigationBar";
 import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
