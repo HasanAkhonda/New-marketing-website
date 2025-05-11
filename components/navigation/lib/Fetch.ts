@@ -1,5 +1,5 @@
 import axios from "axios";
-import { AppConfig } from "../config/app.config";
+import { AppConfig } from "@/config/app.config";
 
 const config = {
   headers: {
