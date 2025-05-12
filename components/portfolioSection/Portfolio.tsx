@@ -53,7 +53,7 @@ const Portfolio = () => {
                     </div>
 
                     <div className='sm:w-2/3 w-full h-fit my-auto'>
-                         >
+                         
                         <p className='font-light text-xl '> Ergonomics Advance specializes in providing ergonomic assessments and evaluations to enhance workplace comfort and reduce injuries.  Their certified specialists analyze employees' behaviors, office spaces, and equipment to offer tailored recommendations aimed at improving productivity and minimizing discomfort.  Services include office ergonomic assessments, industrial ergonomics, dental ergonomics, and ergonomics training.  They serve various locations across California, including Beverly Hills, El Segundo, Hollywood, and Studio City.</p>
                         <a
                             href="#sass"
