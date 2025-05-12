@@ -2,10 +2,10 @@ import { Dribbble, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#08050F] text-white px-6 md:px-16 xl:px-[300px] py-16">
-            <div className="max-w-[1320px] mx-auto flex flex-col md:flex-row justify-between gap-10 text-sm">
+        <footer className="w-full  bg-[#08050F] text-white px-6 md:px-16 xl:px-[300px] py-16">
+<div className="max-w-6xl mx-auto grid gap-10 text-sm sm:grid.cols.1 md:grid-cols-2 lg:grid-cols-4">
                 {/* Left Column - Logo + Description + Icons */}
-                <div className="flex flex-col gap-5 md:max-w-xs">
+                <div className="flex flex-col gap-5 md:max-w-xs w-full">
                     <img src="/FooterLogo.svg" alt="Logo" className="w-[172px] h-[47px]" />
                     <p className="text-[#D2D2D5] text-[18px] leading-[27px]">
                         At our marketing company, we believe that marketing is more than just advertising.
@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
 
                 {/* Middle Column - Contact Info */}
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-5 md:max-w-xs w-full">
                     <h3 className="text-[24px] font-medium">Contact</h3>
                     <a
                         href="https://www.google.com/maps"
@@ -50,7 +50,7 @@ export default function Footer() {
                 </div>
 
                 {/* Right Columns - Links */}
-                <div className="flex flex-col gap-4 w-[110px]">
+                <div className="flex flex-col gap-4 w-full">
                     <h3 className="text-[24px] font-medium">Company</h3>
                     <ul className="flex flex-col gap-[17px] text-[#D2D2D5] text-[18px]">
                         <li><a href="#" className="hover:underline">About Us</a></li>
@@ -60,7 +60,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className="flex flex-col gap-4 w-[122px]">
+                <div className="flex flex-col gap-4 w-full">
                     <h3 className="text-[24px] font-medium">Resources</h3>
                     <ul className="flex flex-col gap-[17px] text-[#D2D2D5] text-[18px]">
                         <li><a href="#" className="hover:underline">Blog</a></li>
