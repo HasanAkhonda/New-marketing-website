@@ -3,7 +3,7 @@ import { Dribbble, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react
 export default function Footer() {
     return (
         <footer className="w-full  bg-[#08050F] text-white px-6 md:px-16 xl:px-[300px] py-16">
-<div className="max-w-6xl mx-auto grid gap-10 text-sm sm:grid.cols.1 md:grid-cols-2 lg:grid-cols-4">
+            <div className="max-w-7xl md:mx-auto grid gap-10 text-sm sm:grid.cols.1 md:grid-cols-2 lg:grid-cols-4">
                 {/* Left Column - Logo + Description + Icons */}
                 <div className="flex flex-col gap-5 md:max-w-xs w-full">
                     <img src="/FooterLogo.svg" alt="Logo" className="w-[172px] h-[47px]" />

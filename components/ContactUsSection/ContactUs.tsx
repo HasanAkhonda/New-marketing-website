@@ -9,7 +9,7 @@ const ContactUs = () => {
         background: `linear-gradient(130.48deg, rgba(237, 227, 254, 0.6) 0.52%, rgba(255, 255, 255, 0.6) 51.91%, rgba(237, 227, 254, 0.6) 100.01%)`,
       }}
     >
-      <div className="bg-white rounded shadow-md max-w-5xl mx-5 lg:mx-auto my-8   px-4 py-6 md:py-12 md:px-16">
+      <div className="bg-white rounded shadow-md max-w-4xl mx-5 lg:mx-auto my-8 md:my-24 px-4 py-6 md:py-12 md:px-16">
         <h2 className="font-bold text-center text-[32px] sm:text-[40px] md:text-[48px] mb-12">
           Contact Us Today
         </h2>
@@ -97,7 +97,7 @@ const ContactUs = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="flex justify-start sm:justify-center lg:justify-start ">
+          <div className="flex justify-start sm:justify-center">
             <button
               type="submit"
               className="sm:w-fit w-full bg-[#4c2f81] hover:bg-[#3a2465] text-white font-semibold py-3 px-8 rounded-md transition"
